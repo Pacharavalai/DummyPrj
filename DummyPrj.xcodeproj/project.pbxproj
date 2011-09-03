@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CA75D61411D50E00709CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA75D51411D50E00709CCA /* UIKit.framework */; };
+		18CA75D81411D50E00709CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA75D71411D50E00709CCA /* Foundation.framework */; };
+		18CA75DA1411D50E00709CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA75D91411D50E00709CCA /* CoreGraphics.framework */; };
+		18CA75E01411D50E00709CCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18CA75DE1411D50E00709CCA /* InfoPlist.strings */; };
+		18CA75E31411D50E00709CCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA75E21411D50E00709CCA /* main.m */; };
+		18CA75E61411D50E00709CCA /* DummyPrjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA75E51411D50E00709CCA /* DummyPrjAppDelegate.m */; };
+		18CA75E91411D50E00709CCA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA75E71411D50E00709CCA /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18CA75D11411D50E00709CCA /* DummyPrj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DummyPrj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CA75D51411D50E00709CCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18CA75D71411D50E00709CCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18CA75D91411D50E00709CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18CA75DD1411D50E00709CCA /* DummyPrj-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DummyPrj-Info.plist"; sourceTree = "<group>"; };
+		18CA75DF1411D50E00709CCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18CA75E11411D50E00709CCA /* DummyPrj-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DummyPrj-Prefix.pch"; sourceTree = "<group>"; };
+		18CA75E21411D50E00709CCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CA75E41411D50E00709CCA /* DummyPrjAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DummyPrjAppDelegate.h; sourceTree = "<group>"; };
+		18CA75E51411D50E00709CCA /* DummyPrjAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DummyPrjAppDelegate.m; sourceTree = "<group>"; };
+		18CA75E81411D50E00709CCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CA75CE1411D50E00709CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA75D61411D50E00709CCA /* UIKit.framework in Frameworks */,
+				18CA75D81411D50E00709CCA /* Foundation.framework in Frameworks */,
+				18CA75DA1411D50E00709CCA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CA75C61411D50E00709CCA = {
+			isa = PBXGroup;
+			children = (
+				18CA75DB1411D50E00709CCA /* DummyPrj */,
+				18CA75D41411D50E00709CCA /* Frameworks */,
+				18CA75D21411D50E00709CCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CA75D21411D50E00709CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CA75D11411D50E00709CCA /* DummyPrj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CA75D41411D50E00709CCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CA75D51411D50E00709CCA /* UIKit.framework */,
+				18CA75D71411D50E00709CCA /* Foundation.framework */,
+				18CA75D91411D50E00709CCA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CA75DB1411D50E00709CCA /* DummyPrj */ = {
+			isa = PBXGroup;
+			children = (
+				18CA75E41411D50E00709CCA /* DummyPrjAppDelegate.h */,
+				18CA75E51411D50E00709CCA /* DummyPrjAppDelegate.m */,
+				18CA75E71411D50E00709CCA /* MainWindow.xib */,
+				18CA75DC1411D50E00709CCA /* Supporting Files */,
+			);
+			path = DummyPrj;
+			sourceTree = "<group>";
+		};
+		18CA75DC1411D50E00709CCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CA75DD1411D50E00709CCA /* DummyPrj-Info.plist */,
+				18CA75DE1411D50E00709CCA /* InfoPlist.strings */,
+				18CA75E11411D50E00709CCA /* DummyPrj-Prefix.pch */,
+				18CA75E21411D50E00709CCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CA75D01411D50E00709CCA /* DummyPrj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CA75EC1411D50E00709CCA /* Build configuration list for PBXNativeTarget "DummyPrj" */;
+			buildPhases = (
+				18CA75CD1411D50E00709CCA /* Sources */,
+				18CA75CE1411D50E00709CCA /* Frameworks */,
+				18CA75CF1411D50E00709CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DummyPrj;
+			productName = DummyPrj;
+			productReference = 18CA75D11411D50E00709CCA /* DummyPrj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CA75C81411D50E00709CCA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 18CA75CB1411D50E00709CCA /* Build configuration list for PBXProject "DummyPrj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18CA75C61411D50E00709CCA;
+			productRefGroup = 18CA75D21411D50E00709CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CA75D01411D50E00709CCA /* DummyPrj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CA75CF1411D50E00709CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA75E01411D50E00709CCA /* InfoPlist.strings in Resources */,
+				18CA75E91411D50E00709CCA /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CA75CD1411D50E00709CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CA75E31411D50E00709CCA /* main.m in Sources */,
+				18CA75E61411D50E00709CCA /* DummyPrjAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CA75DE1411D50E00709CCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CA75DF1411D50E00709CCA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18CA75E71411D50E00709CCA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CA75E81411D50E00709CCA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CA75EA1411D50E00709CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CA75EB1411D50E00709CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		18CA75ED1411D50E00709CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DummyPrj/DummyPrj-Prefix.pch";
+				INFOPLIST_FILE = "DummyPrj/DummyPrj-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18CA75EE1411D50E00709CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DummyPrj/DummyPrj-Prefix.pch";
+				INFOPLIST_FILE = "DummyPrj/DummyPrj-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CA75CB1411D50E00709CCA /* Build configuration list for PBXProject "DummyPrj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA75EA1411D50E00709CCA /* Debug */,
+				18CA75EB1411D50E00709CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CA75EC1411D50E00709CCA /* Build configuration list for PBXNativeTarget "DummyPrj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CA75ED1411D50E00709CCA /* Debug */,
+				18CA75EE1411D50E00709CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CA75C81411D50E00709CCA /* Project object */;
+}
